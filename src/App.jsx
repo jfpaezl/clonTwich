@@ -1,11 +1,9 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import store from "./store"
 import { Provider } from 'react-redux'
 
-import { GlobalStyles } from "./styled/GlobalStyles"
 import { Error404 } from "./containers/Errors/Error404"
 import { Home } from "./containers/pages/Home"
-
 // import { useState } from 'react'
 function App() {
   return (

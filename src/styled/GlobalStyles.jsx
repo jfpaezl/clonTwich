@@ -8,6 +8,7 @@ export const GlobalStyles = createGlobalStyle`
 
 
     --fonButtons: #772ce8;
+    --fontHoverButton: #9147ff;
     --fontHeader: #18181b;
     --fonHeader2: #1f1f23;
     --fontContainer: #0e0e10;
@@ -16,7 +17,10 @@ export const GlobalStyles = createGlobalStyle`
 
 
     --family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: var(--fontHeader);
+    background-color: var(--fontContainer);
+  }
+  body{
+    margin: 0;
   }
   html {
     min-height: 100%;
