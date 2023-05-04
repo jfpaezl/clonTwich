@@ -1,8 +1,40 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
-  body {
-    background-color: #F0F0F0;
-    font-family: 'Open Sans', sans-serif;
+  :root{
+    --text1: #efeff1;
+    --text2: #bf94ff;
+    --textCategory: #adadb8;
+
+
+    --fonButtons: #772ce8;
+    --fontHeader: #18181b;
+    --fonHeader2: #1f1f23;
+    --fontContainer: #0e0e10;
+    --fontCategory: #53535f;
+    --fontHober: #170931;
+
+
+    --family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: var(--fontHeader);
+  }
+  html {
+    min-height: 100%;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-color: var(--fontContainer);
+    color: var(--text1);
+    font-family: var(--family);
+  }
+  *, *:before, *:after {
+      box-sizing: inherit;
+  }
+  h1, h2, h3{
+
+  }
+  img,
+  picture {
+      width: 100%;
+      display: block;
   }
 `;
