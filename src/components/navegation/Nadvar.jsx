@@ -9,18 +9,20 @@ import { CiMenuKebab } from 'react-icons/ci';
 import { IoIosSearch } from 'react-icons/io';
 import { TbCrown } from 'react-icons/tb'
 import { RxPerson } from 'react-icons/rx'   
+import { MdOutlineContentCopy } from 'react-icons/md'
 
 function Nadvar (){
     return(
         <NavCss>
             <div className="navs">
                 <NavLink to={Home}><img src={logo} alt="Logo de twich" className="img"/></NavLink>
+                <div className="extra"><Extra className="extrah"/></div>
                 <NavLink to={Home} className='link'>Explorar</NavLink>
                 <NavLink className='icon1'><Icon1/></NavLink>
             </div>
+            <div className='openSeach'><Search/></div>
             <div className="seach">
-                <div className='openSeach'><Search/></div>
-                <input type="text" className="inputSeach"/>
+                <input type="seach" className="inputSeach"/>
                 <div className='seachContainer'><Search/></div>
             </div>
             <div className="containerLogin">
@@ -40,7 +42,7 @@ export default connect(mapStateToProp,{
 
 })(Nadvar)
 
-export const NavCss = styled.section`
+export const NavCss = styled.nav`
     display: grid;
     grid-template-columns: 1fr 1.5fr 1.5fr;
     @media (min-width: 910px) {
@@ -61,8 +63,22 @@ export const NavCss = styled.section`
             height: 4rem;
             padding: .5rem;
         }
-
+        .extra{
+            display: none;
+            justify-content: center;
+            align-items: center;
+            padding: 0 1rem;
+            &:hover{
+                cursor: pointer;
+            }
+            .extrah{
+                &:hover{
+                    color: var(--fontHoverButton);
+                }
+            }
+        }
         .link{
+            
             text-decoration: none;
             color: var(--text1);
             font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -88,9 +104,19 @@ export const NavCss = styled.section`
         }
 
     }
+    /*responsive para el primer div del nav */
+    
+    @media (max-width: 480px) {
+        .link{
+            display: none;
+        }
+        .extra{
+            display: flex;
+        }
+    }
 
     .seach{
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
         .inputSeach{
@@ -121,19 +147,29 @@ export const NavCss = styled.section`
                 opacity: 48%;
             }
         }
-        .openSeach{
-            background-color: var(--fontCategory);
-            opacity: 38%;
-            width: 30px;
-            height: 32px;
+    }
+    .openSeach{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--fontCategory);
+        opacity: 38%;
+        width: 30px;
+        height: 32px;
+        border-radius: .4rem;
+        cursor: pointer;
+        &:hover{
+            opacity: 48%;
+        }
+    }
+
+    /* responsive para el div de buscar */
+    @media (min-width: 768px) { 
+        .seach{
             display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: .4rem;
-            cursor: pointer;
-            &:hover{
-                opacity: 48%;
-            }
+        }
+        .openSeach{
+            display: none;
         }
     }
     .containerLogin{
@@ -176,32 +212,36 @@ export const NavCss = styled.section`
             }
         }
     }
+    @media (max-width: 1024px) { 
+        .linkRe{
+            display: none;
+        }
+    }
 `
 
 const Icon1 = styled(CiMenuKebab)`
-    font-size: .5px;
     height: 2rem;
     width: 2rem;
     color: var(--text1);
 `
 const Search = styled(IoIosSearch)`
-    font-size: 1.4rem;
-    font-weight: 700;
     height: 2rem;
     width: 2rem;
     color: var(--text1)
 `
 const Crown = styled(TbCrown)`
-    font-size: 1.4rem;
-    font-weight: 700;
     height: 2rem;
     width: 2rem;
     color: var(--text1)
     `
 const Person = styled(RxPerson)`
-    font-size: 1.4rem;
-    font-weight: 700;
     height: 2rem;
     width: 2rem;
     color: var(--text1)
+`
+const Extra = styled(MdOutlineContentCopy)`
+    height: 1.7rem;
+    width: auto;
+    color: var(--text1)
+    
 `
