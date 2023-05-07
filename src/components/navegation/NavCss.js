@@ -167,7 +167,7 @@ export const NavCss = styled.nav`
         .linksPerson{
             background-color: var(--fontHoverButton);
             color: var(--text1);
-            
+            border: none;
             padding: .8rem;
             text-decoration: none;
             font-size: 13px;
@@ -175,6 +175,7 @@ export const NavCss = styled.nav`
             font-weight: 600;
             &:hover{
                 background-color: var(--fonButtons);
+                cursor: pointer;
             }
         }
         .linkIni{
@@ -197,8 +198,8 @@ export const NavCss = styled.nav`
     .showChekIn{
         display: flex;
     }
-    .close{
-        display: none;
+    .hiden{
+        display: none !important;
     }
 `
 //style icons

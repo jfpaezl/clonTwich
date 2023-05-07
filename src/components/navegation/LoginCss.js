@@ -13,6 +13,7 @@ export const LoginCss = styled.div`
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     .container{
+
         background-color: var(--fontHeader);
         display: flex;
         padding: 3rem !important;
@@ -145,8 +146,8 @@ export const LoginCss = styled.div`
         justify-content: space-between;
         align-items: center;
     }
-    .heden{
-        display: none;
+    .hiden{
+        display: none !important;
     }
 `
 

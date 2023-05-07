@@ -2,19 +2,30 @@ import { useState } from 'react'
 
 import { IconTwich } from './NavCss'
 import { LoginCss, Close } from './LoginCss'
-export const  LogIn = () =>{
-    const[isLogin, setIsLogin] = useState(true)
 
-    setIsLogin () = {
-        if (isLogin){
-            
-        }
+
+export const  LogIn = ({showP, mostrarP}) =>{
+
+    //estado para cambiar los modales de si es inicio de secion o registro
+    const[isLogin, setIsLogin] = useState(true)
+    const login = isLogin ? 'container': 'hiden'
+    const chekin = !isLogin ? 'container': 'hiden'
+    const handleClick = () =>{
+        //cambiar el estado buleano 
+        setIsLogin(!isLogin)
     }
+
+    // const [num, setNum] =useState(0)
+    // const aument =()=>{
+    //     setNum(num + 1)
+    // }
+    // console.log(num)
+
     return(
-        <LoginCss id="modalLogIng" className="modalLogIng">
-            <section className={'container'+ setIsLogin}>
+        <LoginCss >
+            <section className={login}>
                 <header className='headeLogin'>
-                    <Close className='close'/>
+                    <Close className='close' onClick={showP}/>
                     <IconTwich className='icon'/>
                     <h2>Iniciar sesión en Twich</h2>
                 </header>
@@ -33,13 +44,13 @@ export const  LogIn = () =>{
                     <button className='button'>Iniciar sesión</button>
                 </form>
                 <footer className='footerLigin'>
-                    <span className='linkF'>¿No tienes una cuenta? Registrate</span>
+                    <span className='linkF'  onClick={handleClick}>¿No tienes una cuenta? Registrate</span>
                 </footer>
             </section>
 
-            <section className='container'>
+            <section className={chekin}>
                 <header className='headeLogin'>
-                    <Close className='close'/>
+                    <Close className='close' onClick={showP}/>
                     <IconTwich className='icon'/>
                     <h2>Unete a Twich hoy</h2>
                 </header>
@@ -56,7 +67,7 @@ export const  LogIn = () =>{
                 </form>
                 <span className='pasos'>Paso 1 de 3</span>
                 <footer className='footerCheck'>
-                    <span className='linkF'>¿Ya eres usuario de Twich? Inicia sesión</span>
+                    <span className='linkF' onClick={handleClick}>¿Ya eres usuario de Twich? Inicia sesión</span>
                     <button className='button'>Siguiente paso</button>
                 </footer>
             </section>
