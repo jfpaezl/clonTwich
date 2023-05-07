@@ -12,18 +12,14 @@ import { LogIn } from './LogIn';
 
 
 function Nadvar (){
+
     const [show, setShow] = useState(false)
     const showModal = show ? '': 'hiden'
     const handleClick =()=>{
         setShow(!show)
     }
 
-    const [mostrarP, setMostrarP] = useState(true)
-    const change =()=>{
-        setMostrarP(!mostrarP)
-    }
 
-    console.log(mostrarP)
     return(
         <>
         <NavCss>
@@ -57,7 +53,7 @@ function Nadvar (){
                 <button className='linksPerson linkIni' onClick={handleClick}>
                     Iniciar sesión
                 </button>
-                <button className='linksPerson linkRe' onClick={()=>{handleClick(); change();}} >
+                <button className='linksPerson linkRe' onClick={handleClick} >
                     Registrarse
                 </button>
                 <div className='ContainerPerson'>
@@ -65,7 +61,7 @@ function Nadvar (){
                 </div>
             </div>
             <div className={showModal}>
-                <LogIn showP = {handleClick} mostrarP = {mostrarP}/>
+                <LogIn showP = {handleClick}/>
             </div>
         </NavCss>
         

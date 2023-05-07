@@ -4,7 +4,7 @@ import { IconTwich } from './NavCss'
 import { LoginCss, Close } from './LoginCss'
 
 
-export const  LogIn = ({showP, mostrarP}) =>{
+export const  LogIn = ({showP}) =>{
 
     //estado para cambiar los modales de si es inicio de secion o registro
     const[isLogin, setIsLogin] = useState(true)
@@ -14,12 +14,6 @@ export const  LogIn = ({showP, mostrarP}) =>{
         //cambiar el estado buleano 
         setIsLogin(!isLogin)
     }
-
-    // const [num, setNum] =useState(0)
-    // const aument =()=>{
-    //     setNum(num + 1)
-    // }
-    // console.log(num)
 
     return(
         <LoginCss >
