@@ -2,7 +2,6 @@ import { connect } from 'react-redux';
 import { useState } from 'react';
 import styled from "styled-components"
 import { ArrowBarLeft, ArrowBarRight, HiOutlineVideo } from './SideCss';
-
 export const Side =()=>{
 
     const [change, setChange] = useState(true)
@@ -24,6 +23,7 @@ export const Side =()=>{
                 <strong className='tooltip'>Canales recomendados</strong>
             </div>
         </SideCss>
+        
     )
 }
 const mapStateToProp = state =>({
@@ -36,8 +36,8 @@ export default connect(mapStateToProp,{
 
 export const SideCss = styled.section`
     background-color: var(--fonHeader2);
-    height: 100vh;
-    padding: 1rem;
+    height: 93vh;
+    /* padding: 1rem; */
     @media (min-width: 1024px) {
         max-width: 24rem;
     }
@@ -68,6 +68,7 @@ export const SideCss = styled.section`
         display: none;
         justify-content: space-between;
         align-items: center;
+        padding: 1rem;
         gap: 2.4rem;
     }
     @media (min-width: 1024px) {

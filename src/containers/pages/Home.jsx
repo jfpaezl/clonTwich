@@ -5,7 +5,7 @@ export const Home = () =>{
     return(
         <Layout>
             <Nadvar/>
-            Home
+            home
         </Layout>
     )
 }
