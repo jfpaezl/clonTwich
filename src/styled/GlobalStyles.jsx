@@ -29,6 +29,7 @@ export const GlobalStyles = createGlobalStyle`
     background-color: var(--fontContainer);
     color: var(--text1);
     font-family: var(--family);
+
     
   }
   *, *:before, *:after {

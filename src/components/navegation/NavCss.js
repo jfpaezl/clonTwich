@@ -23,6 +23,7 @@ export const NavCss = styled.nav`
         display: flex;
         align-items: center;
         height: 100%; 
+        gap: 1rem;
 
         .iconTwich{
             display: flex;
@@ -51,7 +52,7 @@ export const NavCss = styled.nav`
             color: var(--text1);
             font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
             font-size: 1.8rem;
-            font-weight: 500;
+            font-weight: 600;
             padding: 0 2rem;
             &:hover {
                 color: var(--text2);
@@ -149,7 +150,8 @@ export const NavCss = styled.nav`
     .containerLogin{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: flex-end;
+        gap: 1.5rem;
         align-items: center;    
         .ContainerCrown, .ContainerPerson{
             height: 3rem;

@@ -1,12 +1,13 @@
 import { connect } from 'react-redux';
 import { useState } from 'react';
-import styled from "styled-components"
-import { ArrowBarLeft, ArrowBarRight, HiOutlineVideo } from './SideCss';
+
+import { SideCss, ArrowBarLeft, ArrowBarRight, HiOutlineVideo } from './SideCss';
+import { StreamAlive } from './StreamAlive';
 export const Side =()=>{
 
     const [change, setChange] = useState(true)
-    const cerrar = change ? 'open span': 'close'
-    const abrir = !change ? 'open span': 'close'
+    const cerrar = change ? 'open': 'close'
+    const abrir = !change ? 'open': 'close'
 
     const handleClick =()=>{
         setChange(!change)
@@ -22,6 +23,14 @@ export const Side =()=>{
                 <HiOutlineVideo className='camera'/>
                 <strong className='tooltip'>Canales recomendados</strong>
             </div>
+            <StreamAlive 
+                newclas={cerrar}
+                avatar={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0n5INdEL0_j-DJKG-wSIyU2XEf1JrT_rJ5w&usqp=CAU'}
+                nickname={'Jfpaezl'}
+                category={'sobre que va el stream'}
+                views={19.2}
+                description={'🔴ESTA NOCHE DESCENDEMOS AL INFIERNO O SUBIMOS A PLATINO DEFINITIVAMENTE🔴 !redes !video !reddit !discord'}
+            />
         </SideCss>
         
     )
@@ -33,57 +42,3 @@ const mapStateToProp = state =>({
 export default connect(mapStateToProp,{
 
 })(Side)
-
-export const SideCss = styled.section`
-    background-color: var(--fonHeader2);
-    height: 93vh;
-    /* padding: 1rem; */
-    @media (min-width: 1024px) {
-        max-width: 24rem;
-    }
-    
-    //css svg camera
-    .contentCamera{
-        display: flex;
-        justify-content: center;
-    }
-    .tooltip {
-        display: none;
-        position: absolute;
-        left: 3rem;
-        margin-left: 10px;
-        padding: .6rem;
-        border-radius: .5rem;
-        font-size: 1.2rem;
-        background-color: var(--text1);
-        color: var(--fontContainer);
-    }
-    .camera{
-        cursor: pointer;
-        &:hover + .tooltip {
-            display: block;
-        }
-    }
-    .header{
-        display: none;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-        gap: 2.4rem;
-    }
-    @media (min-width: 1024px) {
-        .contentCamera{
-            display: none;
-        }
-        .header{
-            display: flex;
-        }
-    }
-    .open{
-        display: block;
-    }
-    .close{
-        display: none;
-    }
-    
-`

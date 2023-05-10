@@ -19,7 +19,6 @@ function Nadvar (){
         setShow(!show)
     }
 
-
     return(
         <>
         <NavCss>
@@ -41,7 +40,7 @@ function Nadvar (){
                 <Seach className='iconSeach'/>
             </div>
             <div className='seach'>
-                <input type='seach' className='inputSeach'/>
+                <input type='seach' placeholder='Buscar' className='inputSeach'/>
                 <div className='seachContainer'>
                     <Seach/>
                 </div>
