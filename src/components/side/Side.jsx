@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import { SideCss, ArrowBarLeft, ArrowBarRight, HiOutlineVideo } from './SideCss';
 import { StreamAlive } from './StreamAlive';
-export const Side =()=>{
+function Side (){
 
     const [change, setChange] = useState(true)
     const cerrar = change ? 'open': 'close'

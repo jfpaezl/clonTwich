@@ -9,11 +9,13 @@ import { RxPerson } from 'react-icons/rx'
 import { MdOutlineContentCopy } from 'react-icons/md'
 
 export const NavCss = styled.nav`
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1.5fr 1.5fr;
     @media (min-width: 910px) {
         grid-template-columns: 1fr 2fr 1fr;
-    }
+    } */
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 5rem;
     background-color: var(--fontHeader);
@@ -93,10 +95,9 @@ export const NavCss = styled.nav`
             background-color: transparent;
             border-style: ridge;
             height: 34px;
+            min-width: 35.6rem;
             color: var(--textCategory);
             font-family: inherit;
-            max-width: 350px;
-            width: 70%;
             &:focus{
                 border-color: var(--fonButtons);
                 outline: none;

@@ -1,6 +1,5 @@
 import { StreamAliveCss, Pointer } from './StreamAliveCss'
 
-
 export const StreamAlive = ({newclas=Boolean, avatar , nickname='undefined' , category='undefined', views=0, description='description' }) =>{
     const modalSide = newclas === 'open' ? '' : newclas;
     const modal2Side = newclas === 'open' ? '' : 'hoverModal';

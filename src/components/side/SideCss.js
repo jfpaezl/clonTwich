@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 export const SideCss = styled.section`
     background-color: var(--fonHeader2);
-    height: 94vh;
+    height: calc(100vh - 5rem);
     overflow: hidden;
     &:hover{
         overflow: auto;

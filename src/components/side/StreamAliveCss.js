@@ -85,7 +85,6 @@ export const StreamAliveCss = styled.section`
         overflow: hidden;
         margin: 0;
         color: var(--textCategory);
-        
     }
 
     p{
