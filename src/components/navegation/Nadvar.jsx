@@ -22,43 +22,46 @@ function Nadvar (){
     return(
         <>
         <NavCss>
-            <section className='navs'>
-                <NavLink to={Home} className='iconTwich'>
-                    <IconTwich/>
-                </NavLink>
-                <div className='extra'>
-                    <Extra className='extrah'/>
+            <div className='nav'>
+                <section className='navs'>
+                    <NavLink to={Home} className='iconTwich'>
+                        <IconTwich/>
+                    </NavLink>
+                    <div className='extra'>
+                        <Extra className='extrah'/>
+                    </div>
+                    <NavLink to={Home} className='link'>
+                        Explorar
+                    </NavLink>
+                    <NavLink className='icon1'>
+                        <Icon1/>
+                    </NavLink>
+                </section>
+                <div className='openSeach'>
+                    <Seach className='iconSeach'/>
                 </div>
-                <NavLink to={Home} className='link'>
-                    Explorar
-                </NavLink>
-                <NavLink className='icon1'>
-                    <Icon1/>
-                </NavLink>
-            </section>
-            <div className='openSeach'>
-                <Seach className='iconSeach'/>
+                <div className='seach'>
+                    <input type='seach' placeholder='Buscar' className='inputSeach'/>
+                    <div className='seachContainer'>
+                        <Seach/>
+                    </div>
+                </div>
+                <div className='containerLogin'>
+                    <div className='ContainerCrown'>
+                        <Crown/>
+                    </div>
+                    <button className='linksPerson linkIni' onClick={handleClick}>
+                        Iniciar sesión
+                    </button>
+                    <button className='linksPerson linkRe' onClick={handleClick} >
+                        Registrarse
+                    </button>
+                    <div className='ContainerPerson'>
+                        <Person/>
+                    </div>
+                </div>
             </div>
-            <div className='seach'>
-                <input type='seach' placeholder='Buscar' className='inputSeach'/>
-                <div className='seachContainer'>
-                    <Seach/>
-                </div>
-            </div>
-            <div className='containerLogin'>
-                <div className='ContainerCrown'>
-                    <Crown/>
-                </div>
-                <button className='linksPerson linkIni' onClick={handleClick}>
-                    Iniciar sesión
-                </button>
-                <button className='linksPerson linkRe' onClick={handleClick} >
-                    Registrarse
-                </button>
-                <div className='ContainerPerson'>
-                    <Person/>
-                </div>
-            </div>
+            
             <div className={showModal}>
                 <LogIn showP = {handleClick}/>
             </div>

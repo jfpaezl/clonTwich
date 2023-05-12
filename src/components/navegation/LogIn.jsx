@@ -16,8 +16,8 @@ export const  LogIn = ({showP}) =>{
     }
 
     return(
-        <LoginCss >
-            <section className={login}>
+        <LoginCss>
+            <section className={login} >
                 <header className='headeLogin'>
                     <Close className='close' onClick={showP}/>
                     <IconTwich className='icon'/>

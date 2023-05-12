@@ -4,24 +4,26 @@ import styled from "styled-components"
 const colors = ['red', 'blue', 'orange', 'yellow', 'grey', 'black', 'purple']
 const color = colors[Math.floor(Math.random() * colors.length)];
 
-const VideoCarts = () =>{
-
+const VideoCarts = ({viewers=0, avatar, description="Indefinite", nickName='Indefinite', category='Indefinite', etiqueta1='', etiqueta2=''}) =>{
+//para las etiquetas toca ver si mas bien se manda una lista para iterar con max 4 campos en la etiqueta
     return(
         <VideoCartsCss>
             <div className='contentVideo'>
-                <img src="https://www.welivesecurity.com/wp-content/uploads/2021/08/Ataques-compa%C3%B1%C3%ADas-videojuegos-por-qu%C3%A9-son-blanco-atractivo.jpg" alt="imagen de prueba" />
+                <video src="src/assets/videos/video.mp4" alt="imagen de prueba" />
                 <strong>EN DIRECTO</strong>
-                <p>190 espectadores</p>
+                <p>{viewers} espectadores</p>
             </div>
             <div className='contentDescription'>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9r3ogaSmpwNYSaEKRifVaHjwmYsKSW7fC6Q&usqp=CAU" alt="avatar del streamer" />
+                <img src={avatar} alt="avatar del streamer" />
                 <div className='description'>
-                    <h3 className="parrafo">VUE, VITE y VITEST: CHARLANDO con PATAK (Matias Capeletto), Core Contributor de las bibliotecas</h3>
-                    <strong className='parrafo2'>midudev</strong>
-                    <a className="parrafo2">se pone la categoria que tiene</a>
+                    <div className='desParrafo'>
+                        <h3 className="parrafo">{description}</h3>
+                    </div>
+                    <strong className='parrafo2'>{nickName}</strong>
+                    <a className="parrafo2">{category}</a>
                     <div className="spans">
-                        <span>spedrup</span>
-                        <span>Español</span>
+                        <span>{etiqueta1}</span>
+                        <span>{etiqueta2}</span>
                     </div>
                 </div>
             </div>
@@ -49,12 +51,9 @@ export const VideoCartsCss = styled.div`
     
     .contentVideo{
         position: relative;
-        max-width: 31.4rem;
         max-height: 17rem;
-        height: 31.4rem;
-        height: 17rem;
         transition: transform 350ms;
-        img{
+        video{
             object-fit: cover;
             width: 100%;
             height: 100%;
@@ -71,13 +70,13 @@ export const VideoCartsCss = styled.div`
         }
         p{
             position: absolute;
-            top: 14rem;
-            left: 1rem;
+            bottom: 0;
+            left: 0;
             font-size: 1.2rem;
             background-color: #00000044;
             padding: .3rem;
             border-radius: .3rem;
-            margin: 0;
+            margin: 1rem;
         }
         &:hover{
             position: relative;

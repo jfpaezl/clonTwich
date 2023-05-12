@@ -1,10 +1,17 @@
 import { connect } from "react-redux";
+import Side from "../../components/side/Side";
+import { BodyCss } from "../../styled/BodyCss";
+import Nadvar from "../../components/navegation/Nadvar";
 
 function Layout({children}) {
     return(
-        <div>
-            {children}
-        </div>
+        <>
+            <Nadvar/>
+            <BodyCss>
+                <Side/>
+                {children}
+            </BodyCss>   
+        </>
     )
 }
 

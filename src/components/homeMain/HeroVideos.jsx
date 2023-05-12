@@ -5,12 +5,12 @@ export function HeroVideos (){
         <HeroCss>
             <Previus className="previus"/>
             <div className="contentVideo">
-                <iframe width="530px" height="300px" src="https://www.youtube.com/embed/12HwPlmpJGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <video className="video" src="src/assets/videos/video.mp4" controls></video>
                 <div className="contentInfo">
                     <header>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9r3ogaSmpwNYSaEKRifVaHjwmYsKSW7fC6Q&usqp=CAU" alt="avtar del streamer" />
+                        <img src="src/assets/img/iconmonstr-twitch-2-240.png" alt="avtar del streamer" />
                         <div className="infoStream">
-                            <strong>midudev</strong>
+                            <strong>Jfpaezl</strong>
                             <a className="parrafo">se pone la categoria que tiene</a>
                             <p>1.2 k espectadores</p>
                         </div>
@@ -44,6 +44,11 @@ export const HeroCss = styled.section`
         display: flex;
         background-color: var(--fontHeader);
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.281);
+        .video{
+            max-height: 30rem;
+            width: auto;
+            object-fit: cover;
+        }
         .contentInfo{
             display: flex;
             flex-direction: column;

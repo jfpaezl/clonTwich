@@ -5,7 +5,12 @@ import styled from 'styled-components'
 export const SideCss = styled.section`
     background-color: var(--fonHeader2);
     height: calc(100vh - 5rem);
+    min-width: 5rem;
     overflow: hidden;
+    @media (max-width: 479px) {
+        display: none !important;
+    }
+
     &:hover{
         overflow: auto;
     }

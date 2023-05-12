@@ -9,18 +9,16 @@ import { RxPerson } from 'react-icons/rx'
 import { MdOutlineContentCopy } from 'react-icons/md'
 
 export const NavCss = styled.nav`
-    /* display: grid;
-    grid-template-columns: 1fr 1.5fr 1.5fr;
-    @media (min-width: 910px) {
-        grid-template-columns: 1fr 2fr 1fr;
-    } */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 5rem;
-    background-color: var(--fontHeader);
-    border-bottom: solid 2px black;
-    
+    flex-direction: column;
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+        background-color: var(--fontHeader);
+        border-bottom: solid 2px black;
+    }
     .navs{
         display: flex;
         align-items: center;
@@ -184,6 +182,7 @@ export const NavCss = styled.nav`
         .linkIni{
             background-color: var(--fontCategory);
             opacity: 38%;
+            min-width: 8.31rem;
             &:hover{
                 background-color: var(--fontCategory);
                 opacity: 48%;

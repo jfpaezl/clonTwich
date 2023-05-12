@@ -10,7 +10,15 @@ const HomeMain=()=>{
     return(
         <HomeMainCss>
             <HeroVideos/>
-            <VideoCarts/>
+            <VideoCarts 
+                viewers={194}
+                avatar="src/assets/img/iconmonstr-twitch-2-240.png"
+                description='VUE, VITE y VITEST: CHARLANDO con PATAK (Matias Capeletto), Core Contributor de las bibliotecas'
+                nickName='Jfpaezl'
+                category='se pone la categoria'
+                etiqueta1='spedrup'
+                etiqueta2='Español'
+            />
         </HomeMainCss>
     )
 }
@@ -26,6 +34,7 @@ export default connect(mapStateToProp,{
 export const HomeMainCss = styled.main`
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 2rem;
     height: calc(100vh - 5rem);
     overflow: hidden;

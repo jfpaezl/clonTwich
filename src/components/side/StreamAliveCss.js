@@ -6,6 +6,7 @@ export const StreamAliveCss = styled.section`
     padding: 1rem;
     display: flex;
     grid-template-columns: 2.2fr .8fr ;
+    width: 100% !important;
     gap: 1rem;
 
     //activar la modal de descripccion

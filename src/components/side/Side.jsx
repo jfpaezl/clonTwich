@@ -25,7 +25,7 @@ function Side (){
             </div>
             <StreamAlive 
                 newclas={cerrar}
-                avatar={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0n5INdEL0_j-DJKG-wSIyU2XEf1JrT_rJ5w&usqp=CAU'}
+                avatar={'src/assets/img/iconmonstr-twitch-2-240.png'}
                 nickname={'Jfpaezl'}
                 category={'sobre que va el stream'}
                 views={19.2}
