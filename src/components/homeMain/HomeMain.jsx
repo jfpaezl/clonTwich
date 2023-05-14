@@ -1,24 +1,15 @@
 import { connect } from 'react-redux'; //importante esta mierda
 import styled from 'styled-components';
 
-import VideoCarts from "../../components/carts/VideoCarts"
 import { HeroVideos } from "./HeroVideos"
-
+import { LiveChanel } from './liveChanel';
 
 
 const HomeMain=()=>{
     return(
         <HomeMainCss>
             <HeroVideos/>
-            <VideoCarts 
-                viewers={194}
-                avatar="src/assets/img/iconmonstr-twitch-2-240.png"
-                description='VUE, VITE y VITEST: CHARLANDO con PATAK (Matias Capeletto), Core Contributor de las bibliotecas'
-                nickName='Jfpaezl'
-                category='se pone la categoria'
-                etiqueta1='spedrup'
-                etiqueta2='Español'
-            />
+            <LiveChanel/>
         </HomeMainCss>
     )
 }

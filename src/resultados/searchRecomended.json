@@ -1,0 +1,398 @@
+{
+    "data": [
+        {
+            "id": "46860174108",
+            "user_id": "90075649",
+            "user_login": "illojuan",
+            "user_name": "IlloJuan",
+            "game_id": "512998",
+            "game_name": "The Legend of Zelda: Tears of the Kingdom",
+            "type": "live",
+            "title": "EL MEJOR DOMINGO DE LA HISTORIA 🌺 - The Legend of Zelda: Tears of the Kingdom #1",
+            "viewer_count": 42029,
+            "started_at": "2023-05-14T17:21:04Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_illojuan-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46860351612",
+            "user_id": "605221125",
+            "user_login": "gerardromero",
+            "user_name": "gerardromero",
+            "game_id": "518203",
+            "game_name": "Sports",
+            "type": "live",
+            "title": "JIJANTES FC | EL DERBI DE CAMPEONATO EN CORNELLÀ - EL PRAT. ESPANYOL - BARÇA",
+            "viewer_count": 17781,
+            "started_at": "2023-05-14T18:17:22Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gerardromero-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "41355623817",
+            "user_id": "240277531",
+            "user_login": "gorilon",
+            "user_name": "gorilon",
+            "game_id": "33214",
+            "game_name": "Fortnite",
+            "type": "live",
+            "title": "VIEWING PARTY FNCS GRANDS FINALS BRAZIL DAY 2",
+            "viewer_count": 15029,
+            "started_at": "2023-05-14T21:00:28Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gorilon-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "gorilon",
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46860318988",
+            "user_id": "39276140",
+            "user_login": "rubius",
+            "user_name": "Rubius",
+            "game_id": "512998",
+            "game_name": "The Legend of Zelda: Tears of the Kingdom",
+            "type": "live",
+            "title": "Link monta robots y comete crimenes de guerra (TERMINA MAL + NO CLICKBAIT) 🔥 Zelda TOTK Day 4",
+            "viewer_count": 14000,
+            "started_at": "2023-05-14T18:06:47Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_rubius-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "41355934361",
+            "user_id": "48565257",
+            "user_login": "josedeodo",
+            "user_name": "Josedeodo",
+            "game_id": "21779",
+            "game_name": "League of Legends",
+            "type": "live",
+            "title": "#SBC3 VOLVI",
+            "viewer_count": 7698,
+            "started_at": "2023-05-14T22:10:26Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_josedeodo-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46860789452",
+            "user_id": "210485458",
+            "user_login": "agentemaxo",
+            "user_name": "AgenteMaxo",
+            "game_id": "27471",
+            "game_name": "Minecraft",
+            "type": "live",
+            "title": "🟩 HOY ES EL GRAN DIA 🟩 INSTALANDO LA SUPERCOMPUTADORA 🟩 BIG DAY 🟩 ESTOY CREANDO ALGO QUE NO DEBERIA HABER CREADO NUNCA?",
+            "viewer_count": 7268,
+            "started_at": "2023-05-14T20:41:54Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_agentemaxo-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46859924012",
+            "user_id": "45329736",
+            "user_login": "hitboxking",
+            "user_name": "HITBOXKING",
+            "game_id": "516575",
+            "game_name": "VALORANT",
+            "type": "live",
+            "title": "LOUD vs NRG | VCT AMERICAS WPATCHPARTY|",
+            "viewer_count": 6431,
+            "started_at": "2023-05-14T15:53:48Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_hitboxking-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español",
+                "valorant",
+                "shooters"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46860642268",
+            "user_id": "96604083",
+            "user_login": "ricoy",
+            "user_name": "Ricoy",
+            "game_id": "263490",
+            "game_name": "Rust",
+            "type": "live",
+            "title": "CHILL STREAM NO CAM !evento !trailer !bellum !drops",
+            "viewer_count": 5870,
+            "started_at": "2023-05-14T19:49:09Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ricoy-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "39589838293",
+            "user_id": "70142975",
+            "user_login": "andypsx",
+            "user_name": "Andypsx",
+            "game_id": "498566",
+            "game_name": "Slots",
+            "type": "live",
+            "title": "🚀BONUS BOOST 30.000$ BET 100$ + 10.000$ CASH RAW🚀1500$ JUEGO DE LAS CAJAS!!! - UNETE A LA COMUNIDAD !ou - STREAM #ad +18",
+            "viewer_count": 5630,
+            "started_at": "2023-05-14T20:57:03Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_andypsx-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "46860875580",
+            "user_id": "42351942",
+            "user_login": "nissaxter",
+            "user_name": "Nissaxter",
+            "game_id": "21779",
+            "game_name": "League of Legends",
+            "type": "live",
+            "title": "󠀀🔴DOMINGO DE CERVECITAS CON MENTAL DE BUDA🔴",
+            "viewer_count": 4964,
+            "started_at": "2023-05-14T21:21:12Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nissaxter-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Parodia",
+                "lol",
+                "Ranked",
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "41355615353",
+            "user_id": "224818031",
+            "user_login": "farfadoxvevo",
+            "user_name": "FarfadoxVEVO",
+            "game_id": "2098434321",
+            "game_name": "Far Lands",
+            "type": "live",
+            "title": "FAR LANDS DIA 10 | 10%",
+            "viewer_count": 4255,
+            "started_at": "2023-05-14T20:58:45Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_farfadoxvevo-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46860459932",
+            "user_id": "110405254",
+            "user_login": "carola",
+            "user_name": "Carola",
+            "game_id": "263490",
+            "game_name": "Rust",
+            "type": "live",
+            "title": "RÚSTICO",
+            "viewer_count": 4251,
+            "started_at": "2023-05-14T18:52:01Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_carola-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46859828364",
+            "user_id": "152633332",
+            "user_login": "knekro",
+            "user_name": "knekro",
+            "game_id": "512998",
+            "game_name": "The Legend of Zelda: Tears of the Kingdom",
+            "type": "live",
+            "title": "DIA 3 | AL 100% ZELDA TEARS OF KINGDOM | Construcciones Kenkro digame  !eneba !sorteazo",
+            "viewer_count": 3970,
+            "started_at": "2023-05-14T15:17:43Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_knekro-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español",
+                "Knekrer",
+                "variety",
+                "Elmejor",
+                "CHALLENGER"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "48484974253",
+            "user_id": "211121982",
+            "user_login": "vickypalami",
+            "user_name": "vickypalami",
+            "game_id": "516575",
+            "game_name": "VALORANT",
+            "type": "live",
+            "title": "VCT Americas: NRG V LOUD | #VCTWatchParty",
+            "viewer_count": 3923,
+            "started_at": "2023-05-14T19:08:40Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vickypalami-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "41354948105",
+            "user_id": "544213766",
+            "user_login": "valorant_la",
+            "user_name": "valorant_la",
+            "game_id": "516575",
+            "game_name": "VALORANT",
+            "type": "live",
+            "title": "#VCTAmericas | SEN vs KRÜ // NRG vs LOUD | Semana 7 Día 2 | Esports | VALORANT",
+            "viewer_count": 3895,
+            "started_at": "2023-05-14T18:05:17Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_valorant_la-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Esports",
+                "Español",
+                "Torneo"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46860380076",
+            "user_id": "68124914",
+            "user_login": "blackelespanolito",
+            "user_name": "blackelespanolito",
+            "game_id": "516575",
+            "game_name": "VALORANT",
+            "type": "live",
+            "title": "NRG 1 - 0 LOUD| VCT AMERICA SEMANA 7 | #VCTWatchParty !partidos con @sergiofferra",
+            "viewer_count": 3829,
+            "started_at": "2023-05-14T18:26:43Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blackelespanolito-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "VALORANT",
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "41355961209",
+            "user_id": "61519248",
+            "user_login": "unicornio",
+            "user_name": "unicornio",
+            "game_id": "509658",
+            "game_name": "Just Chatting",
+            "type": "live",
+            "title": "hola soy ger 🤓🧉  hoy es domingo 👍",
+            "viewer_count": 3160,
+            "started_at": "2023-05-14T22:16:19Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_unicornio-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46860712668",
+            "user_id": "113366816",
+            "user_login": "sergiofferra",
+            "user_name": "SergioFFerra",
+            "game_id": "516575",
+            "game_name": "VALORANT",
+            "type": "live",
+            "title": "🤟 NRG [1]- [0] LOUD | #WATCHPARTY VCT AMERICAS con @blackelespanolito 🚨 | KRÜ [0] - [2] SEN | !YT !match !video !premier",
+            "viewer_count": 3145,
+            "started_at": "2023-05-14T20:12:33Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sergiofferra-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "AMA",
+                "VCT",
+                "EMEA",
+                "Americas",
+                "Valorant",
+                "KOI",
+                "Ibai",
+                "KingsLeague",
+                "Rising",
+                "watchparty"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46860766684",
+            "user_id": "198363811",
+            "user_login": "polispol1",
+            "user_name": "polispol1",
+            "game_id": "27471",
+            "game_name": "Minecraft",
+            "type": "live",
+            "title": "ÉXODO MINECRAFT DIA 5: Nos vamos a la luna",
+            "viewer_count": 2797,
+            "started_at": "2023-05-14T20:32:43Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_polispol1-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Polispol",
+                "Polispol1",
+                "justchatting",
+                "cine",
+                "lentejas",
+                "Español",
+                "exodo",
+                "exodominecraft",
+                "minecraft"
+            ],
+            "is_mature": false
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjp7IkN1cnNvciI6ImV5SnpJam8wTWpBeU9TNHhNelkzTnpNM01UVTVPU3dpWkNJNlptRnNjMlVzSW5RaU9uUnlkV1Y5In0sImEiOnsiQ3Vyc29yIjoiZXlKeklqb3lOek0xTGpFNE56YzJOVFUxTlRVMk1qY3NJbVFpT21aaGJITmxMQ0owSWpwMGNuVmxmUT09In19"
+    }
+}

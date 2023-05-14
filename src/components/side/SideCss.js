@@ -24,6 +24,7 @@ export const SideCss = styled.section`
     /* padding: 1rem; */
     @media (min-width: 1024px) {
         max-width: 25rem;
+        flex-shrink: 0;
     }
     
     //css svg camera

@@ -1,19 +1,17 @@
-import { useState } from 'react'
+//importar hooks
+import { useToggle } from '../../hocs/Toggle'
 
+//importar stilos y iconos
 import { IconTwich } from './NavCss'
 import { LoginCss, Close } from './LoginCss'
 
 
-export const  LogIn = ({showP}) =>{
-
+export const  LogIn = ({showP, state=true}) =>{
+    
     //estado para cambiar los modales de si es inicio de secion o registro
-    const[isLogin, setIsLogin] = useState(true)
-    const login = isLogin ? 'container': 'hiden'
-    const chekin = !isLogin ? 'container': 'hiden'
-    const handleClick = () =>{
-        //cambiar el estado buleano 
-        setIsLogin(!isLogin)
-    }
+    const {toggle, handleToggle} = useToggle(state)
+    const login = toggle ? 'container': 'hiden'
+    const chekin = !toggle ? 'container': 'hiden'
 
     return(
         <LoginCss>
@@ -38,7 +36,7 @@ export const  LogIn = ({showP}) =>{
                     <button className='button'>Iniciar sesión</button>
                 </form>
                 <footer className='footerLigin'>
-                    <span className='linkF'  onClick={handleClick}>¿No tienes una cuenta? Registrate</span>
+                    <span className='linkF'  onClick={handleToggle}>¿No tienes una cuenta? Registrate</span>
                 </footer>
             </section>
 
@@ -61,7 +59,7 @@ export const  LogIn = ({showP}) =>{
                 </form>
                 <span className='pasos'>Paso 1 de 3</span>
                 <footer className='footerCheck'>
-                    <span className='linkF' onClick={handleClick}>¿Ya eres usuario de Twich? Inicia sesión</span>
+                    <span className='linkF' onClick={handleToggle}>¿Ya eres usuario de Twich? Inicia sesión</span>
                     <button className='button'>Siguiente paso</button>
                 </footer>
             </section>

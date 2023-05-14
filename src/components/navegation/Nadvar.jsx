@@ -1,6 +1,8 @@
 import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import { useState } from 'react';
+
+//importar hooks
+import { useToggle } from '../../hocs/Toggle';
 
 //importar el estilo del nav
 import { Seach, Icon1, Crown, Person, Extra, IconTwich, NavCss } from './NavCss';
@@ -12,13 +14,9 @@ import { LogIn } from './LogIn';
 
 
 function Nadvar (){
-
-    const [show, setShow] = useState(false)
-    const showModal = show ? '': 'hiden'
-    const handleClick =()=>{
-        setShow(!show)
-    }
-
+    // un hook creado para crear funciones toogle o buleabos
+    const {toggle, handleToggle} = useToggle(false)
+    const showModal = toggle ? '': 'hiden'
     return(
         <>
         <NavCss>
@@ -50,10 +48,10 @@ function Nadvar (){
                     <div className='ContainerCrown'>
                         <Crown/>
                     </div>
-                    <button className='linksPerson linkIni' onClick={handleClick}>
+                    <button className='linksPerson linkIni' onClick={handleToggle}>
                         Iniciar sesión
                     </button>
-                    <button className='linksPerson linkRe' onClick={handleClick} >
+                    <button className='linksPerson linkRe' onClick={handleToggle} >
                         Registrarse
                     </button>
                     <div className='ContainerPerson'>
@@ -63,7 +61,7 @@ function Nadvar (){
             </div>
             
             <div className={showModal}>
-                <LogIn showP = {handleClick}/>
+                <LogIn showP = {handleToggle}/>
             </div>
         </NavCss>
         

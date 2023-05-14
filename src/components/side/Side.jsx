@@ -8,7 +8,7 @@ function Side (){
     const [change, setChange] = useState(true)
     const cerrar = change ? 'open': 'close'
     const abrir = !change ? 'open': 'close'
-
+    
     const handleClick =()=>{
         setChange(!change)
     }
