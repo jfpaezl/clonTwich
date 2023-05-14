@@ -4,12 +4,13 @@ import styled from "styled-components"
 const colors = ['red', 'blue', 'orange', 'yellow', 'grey', 'black', 'purple']
 const color = colors[Math.floor(Math.random() * colors.length)];
 
-const VideoCarts = ({viewers=0, avatar, description="Indefinite", nickName='Indefinite', category='Indefinite', etiqueta1='', etiqueta2=''}) =>{
+const VideoCarts = ({portada, viewers=0, avatar, description="Indefinite", nickName='Indefinite', category='Indefinite', tags}) =>{
+
 //para las etiquetas toca ver si mas bien se manda una lista para iterar con max 4 campos en la etiqueta
     return(
         <VideoCartsCss>
             <div className='contentVideo'>
-                <video src="src/assets/videos/video.mp4" alt="imagen de prueba" />
+                <img className='portada' src={portada} alt="imagen de portada" />
                 <strong>EN DIRECTO</strong>
                 <p>{viewers} espectadores</p>
             </div>
@@ -22,8 +23,11 @@ const VideoCarts = ({viewers=0, avatar, description="Indefinite", nickName='Inde
                     <strong className='parrafo2'>{nickName}</strong>
                     <a className="parrafo2">{category}</a>
                     <div className="spans">
-                        <span>{etiqueta1}</span>
-                        <span>{etiqueta2}</span>
+                    { 
+                        tags.map((tag, index) => (
+                        <span key={index}> {tag} </span>
+                        ))
+                    }
                     </div>
                 </div>
             </div>
@@ -31,9 +35,6 @@ const VideoCarts = ({viewers=0, avatar, description="Indefinite", nickName='Inde
         </VideoCartsCss>
     )
 }
-
-
-
 
 const mapStateToProp = state =>({
 
@@ -48,12 +49,13 @@ export const VideoCartsCss = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-bottom: 2rem;
     
     .contentVideo{
         position: relative;
         max-height: 17rem;
         transition: transform 350ms;
-        video{
+        .portada{
             object-fit: cover;
             width: 100%;
             height: 100%;
@@ -100,8 +102,7 @@ export const VideoCartsCss = styled.div`
         }
         .parrafo{
             font-size: 1.3rem;
-            max-width: 26.5rem;
-            width: auto;
+            max-width: 20rem;
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden;
