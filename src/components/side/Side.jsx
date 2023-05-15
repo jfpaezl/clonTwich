@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import { useState } from 'react';
 
-import { SideCss, ArrowBarLeft, ArrowBarRight, HiOutlineVideo } from './SideCss';
+import { SideCss, ArrowBarLeft, ArrowBarRight, HiOutlineVideo } from '../../styled/side/SideCss';
 import { StreamAlive } from './StreamAlive';
 function Side (){
 

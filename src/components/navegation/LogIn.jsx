@@ -2,8 +2,8 @@
 import { useToggle } from '../../hocs/Toggle'
 
 //importar stilos y iconos
-import { IconTwich } from './NavCss'
-import { LoginCss, Close } from './LoginCss'
+import { IconTwich } from '../../styled/navegation/NavCss'
+import { LoginCss, Close } from '../../styled/navegation/LoginCss'
 
 
 export const  LogIn = ({showP, state=true}) =>{

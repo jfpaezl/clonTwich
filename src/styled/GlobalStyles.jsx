@@ -14,6 +14,8 @@ export const GlobalStyles = createGlobalStyle`
     --fontContainer: #0e0e10;
     --fontCategory: #53535f;
     --fontHober: #170931;
+
+    --colorRandom: black, blue , red , purple;
       @font-face {
         font-family: 'font1';
         src: url('src/assets/fonts/inter-latin-variable-wghtOnly-normal-a05a0d687a088c4efed3.woff2') format('woff2');

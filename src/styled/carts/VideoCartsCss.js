@@ -1,7 +1,9 @@
 import styled from "styled-components"
+const colors = ['red', 'blue', 'orange', 'yellow', 'grey', 'black', 'purple']
+const color = colors[Math.floor(Math.random() * colors.length)];
 
 const VideoCartsCss = styled.div`
-    max-width: 31.4rem;
+    /* max-width: 31.4rem; */
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -9,13 +11,12 @@ const VideoCartsCss = styled.div`
     
     .contentVideo{
         position: relative;
-        max-height: 17rem;
+        /* max-height: 17rem; */
         transition: transform 350ms;
         .portada{
             object-fit: cover;
             width: 100%;
             height: 100%;
-            z-index: 1;
         }
         strong{
             position: absolute;
@@ -59,7 +60,7 @@ const VideoCartsCss = styled.div`
         }
         .parrafo{
             font-size: 1.3rem;
-            max-width: 20rem;
+            max-width: 25rem;
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden;

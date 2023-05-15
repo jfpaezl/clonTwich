@@ -1,4 +1,4 @@
-import { StreamAliveCss, Pointer } from './StreamAliveCss'
+import { StreamAliveCss, Pointer } from '../../styled/side/StreamAliveCss'
 
 export const StreamAlive = ({newclas=Boolean, avatar , nickname='undefined' , category='undefined', views=0, description='description' }) =>{
     const modalSide = newclas === 'open' ? '' : newclas;

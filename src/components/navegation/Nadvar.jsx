@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import { useToggle } from '../../hocs/Toggle';
 
 //importar el estilo del nav
-import { Seach, Icon1, Crown, Person, Extra, IconTwich, NavCss } from './NavCss';
+import { Seach, Icon1, Crown, Person, Extra, IconTwich, NavCss } from '../../styled/navegation/NavCss';
 
 //impor pages for nav
 import { Home } from '../../containers/pages/Home';

@@ -2,7 +2,7 @@ import { connect } from 'react-redux'; //importante esta mierda
 import styled from 'styled-components';
 
 import { HeroVideos } from "./HeroVideos"
-import { LiveChanel } from './liveChanel';
+import { LiveChanel } from './LiveChanel';
 
 
 const HomeMain=()=>{

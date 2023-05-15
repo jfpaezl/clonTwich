@@ -3,10 +3,9 @@ import VideoCarts from '../carts/VideoCarts';
 import recomendados from'../../resultados/searchRecomended.json'
 
 export const LiveChanel = () =>{
-    const width = '314'
-    const height = '170'
+    const width = '600'
+    const height = '300'
     const recomended = recomendados.data
-    console.log(recomended)
 
     return(
         <LiveChanelCss>
@@ -16,8 +15,7 @@ export const LiveChanel = () =>{
             </div>
             <div className='seccionPrueba'>
                 {   
-                    recomended.map(recomend =>(
-                        
+                    recomended.slice(0, 10).map(recomend =>(
                             <VideoCarts 
                                 key={recomend.id}
                                 portada={recomend.thumbnail_url.replace('{width}', width).replace('{height}', height)}
@@ -57,10 +55,16 @@ export const LiveChanelCss = styled.div`
         }
     }
     .seccionPrueba{
-
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: flex;
         gap: 1rem;
+        @media (min-width: 1023px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        @media (min-width: 1500px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
     }
 
 `
