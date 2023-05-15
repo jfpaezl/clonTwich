@@ -1,40 +1,39 @@
 import styled from 'styled-components';
 import VideoCarts from '../carts/VideoCarts';
-import recomendados from'../../resultados/searchRecomended.json'
+import { useFetchTwitchData } from '../../hocs/useFetchTwitchData'
 import { useState, useEffect } from 'react';
 
+
 export const LiveChanel = () =>{
-    const width = '600'
-    const height = '300'
-    const recomended = recomendados.data
-    
+    const { data, loading, error } = useFetchTwitchData('https://api.twitch.tv/helix/streams?language=es');
     const [videos, setVideos] = useState(8);
     useEffect(() => {
-      const handleResize = () => {
-        const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-        let videos;
-  
-        if (screenWidth > 1399) {
-          videos = 10;
-        } else if (screenWidth > 1023) {
-          videos = 8;
-        } else if (screenWidth > 768) {
-          videos = 6;
-        } else if (screenWidth > 480) {
-          videos = 4;
-        } else {
-          videos = 8;
-        }
-  
-            setVideos(videos);
-        };
-        
-        window.addEventListener('resize', handleResize);
-        
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
+        const handleResize = () => {
+          const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+          let videos;
+    
+          if (screenWidth > 1399) {
+            videos = 10;
+          } else if (screenWidth > 1023) {
+            videos = 8;
+          } else if (screenWidth > 768) {
+            videos = 6;
+          } else if (screenWidth > 480) {
+            videos = 4;
+          } else {
+            videos = 8;
+          }
+    
+              setVideos(videos);
+          };
+          
+          window.addEventListener('resize', handleResize);
+          
+          return () => {
+              window.removeEventListener('resize', handleResize);
+          };
+      }, []);
+
     return(
         <LiveChanelCss>
             <div className='header'>
@@ -43,10 +42,11 @@ export const LiveChanel = () =>{
             </div>
             <div className='seccionPrueba'>
                     {   
-                        recomended.slice(0, videos).map(recomend =>(
+                        loading ? error :
+                        data.data.slice(0, videos).map(recomend =>(
                                 <VideoCarts 
                                     key={recomend.id}
-                                    portada={recomend.thumbnail_url.replace('{width}', width).replace('{height}', height)}
+                                    portada={recomend.thumbnail_url.replace('{width}', '600').replace('{height}', '300')}
                                     viewers={recomend.viewer_count}
                                     avatar="src/assets/img/iconmonstr-twitch-2-240.png"
                                     description={recomend.title}
