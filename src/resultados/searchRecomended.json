@@ -1,0 +1,412 @@
+{
+    "data": [
+        {
+            "id": "41358981081",
+            "user_id": "157658336",
+            "user_login": "elspreen",
+            "user_name": "ElSpreen",
+            "game_id": "509658",
+            "game_name": "Just Chatting",
+            "type": "live",
+            "title": "hacer cosas",
+            "viewer_count": 35439,
+            "started_at": "2023-05-15T20:15:18Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_elspreen-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Spreen",
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "48490157885",
+            "user_id": "121510236",
+            "user_login": "juansguarnizo",
+            "user_name": "juansguarnizo",
+            "game_id": "509658",
+            "game_name": "Just Chatting",
+            "type": "live",
+            "title": "VAMO A DIBUJA 🤓",
+            "viewer_count": 17625,
+            "started_at": "2023-05-15T19:02:05Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_juansguarnizo-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46861746972",
+            "user_id": "31919607",
+            "user_login": "elxokas",
+            "user_name": "elxokas",
+            "game_id": "512998",
+            "game_name": "The Legend of Zelda: Tears of the Kingdom",
+            "type": "live",
+            "title": "DÍA 3 DEL TEARS OF THE KINGDOM CON LINK IRL #3 !REDES",
+            "viewer_count": 12704,
+            "started_at": "2023-05-15T14:00:19Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_elxokas-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46862682620",
+            "user_id": "48878319",
+            "user_login": "thegrefg",
+            "user_name": "TheGrefg",
+            "game_id": "516575",
+            "game_name": "VALORANT",
+            "type": "live",
+            "title": "👑 AFTERKINGS ⚽ ¿ME SANCIONAN HOY?",
+            "viewer_count": 10096,
+            "started_at": "2023-05-15T19:38:35Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_thegrefg-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "grefg",
+                "thegrefg",
+                "Heretics",
+                "Español",
+                "Saiyans"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "41359021369",
+            "user_id": "48565257",
+            "user_login": "josedeodo",
+            "user_name": "Josedeodo",
+            "game_id": "21779",
+            "game_name": "League of Legends",
+            "type": "live",
+            "title": "#SBC3 DIA 15",
+            "viewer_count": 8036,
+            "started_at": "2023-05-15T20:26:25Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_josedeodo-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46862157852",
+            "user_id": "96604083",
+            "user_login": "ricoy",
+            "user_name": "Ricoy",
+            "game_id": "263490",
+            "game_name": "Rust",
+            "type": "live",
+            "title": "Continuamos el WIPE en TRIO !evento !trailer !bellum !drops",
+            "viewer_count": 7983,
+            "started_at": "2023-05-15T16:57:19Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ricoy-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "46861897804",
+            "user_id": "152633332",
+            "user_login": "knekro",
+            "user_name": "knekro",
+            "game_id": "512998",
+            "game_name": "The Legend of Zelda: Tears of the Kingdom",
+            "type": "live",
+            "title": "DIA 4 | AL 100% ZELDA TEARS OF KINGDOM | MODO LOCURA ACTIVADO  !eneba !sorteazo",
+            "viewer_count": 6501,
+            "started_at": "2023-05-15T15:12:58Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_knekro-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español",
+                "Knekrer",
+                "variety",
+                "Elmejor",
+                "CHALLENGER"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46861887068",
+            "user_id": "30857876",
+            "user_login": "folagorlives",
+            "user_name": "FolagorLives",
+            "game_id": "32982",
+            "game_name": "Grand Theft Auto V",
+            "type": "live",
+            "title": "GTA ROLEPLAY LUCAS *EL PIBE* Hoodstar Community | Suscríbete con Twitch Prime GRATIS",
+            "viewer_count": 6081,
+            "started_at": "2023-05-15T15:07:59Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_folagorlives-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "39592353301",
+            "user_id": "70142975",
+            "user_login": "andypsx",
+            "user_name": "Andypsx",
+            "game_id": "498566",
+            "game_name": "Slots",
+            "type": "live",
+            "title": "🚀BONUS BOOST 30.000$ - BET 100$🚀1500$ JUEGO DE LAS CAJAS!!! !cajas - UNETE A LA COMUNIDAD !ou - STREAM #ad +18",
+            "viewer_count": 5717,
+            "started_at": "2023-05-15T20:57:58Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_andypsx-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "46862298540",
+            "user_id": "110405254",
+            "user_login": "carola",
+            "user_name": "Carola",
+            "game_id": "263490",
+            "game_name": "Rust",
+            "type": "live",
+            "title": "RUSTICO",
+            "viewer_count": 5316,
+            "started_at": "2023-05-15T17:45:46Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_carola-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46862778380",
+            "user_id": "42351942",
+            "user_login": "nissaxter",
+            "user_name": "Nissaxter",
+            "game_id": "21779",
+            "game_name": "League of Legends",
+            "type": "live",
+            "title": "🔴DUO Q CON EL MACAQUIÑO CON TENDENCIAS FRUTALES Y CON OLOR A CEBOLLA SOSTENIENDO LA MENTIRA EN PLATA 3 🔴 !redes !video",
+            "viewer_count": 5288,
+            "started_at": "2023-05-15T20:08:27Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nissaxter-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Parodia",
+                "lol",
+                "Ranked",
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "41359389481",
+            "user_id": "203799202",
+            "user_login": "luquitarodriguez",
+            "user_name": "luquitarodriguez",
+            "game_id": "509658",
+            "game_name": "Just Chatting",
+            "type": "live",
+            "title": "PAREN LA MANO DE LUNES",
+            "viewer_count": 4766,
+            "started_at": "2023-05-15T21:49:25Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_luquitarodriguez-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "42196574939",
+            "user_id": "143776262",
+            "user_login": "keznit1",
+            "user_name": "keznit1",
+            "game_id": "516575",
+            "game_name": "VALORANT",
+            "type": "live",
+            "title": "RANKED PLAYER  // !exopik !partido !team !hora !ds !tiktok !top1 !redes !donate",
+            "viewer_count": 3449,
+            "started_at": "2023-05-15T21:27:47Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_keznit1-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46862296380",
+            "user_id": "109492660",
+            "user_login": "reborn_live",
+            "user_name": "Reborn_Live",
+            "game_id": "27471",
+            "game_name": "Minecraft",
+            "type": "live",
+            "title": "HACEMOS COSITAS EN LA LUNA Y TIERRA",
+            "viewer_count": 3311,
+            "started_at": "2023-05-15T17:44:55Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_reborn_live-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español",
+                "Reborn",
+                "rebornlive"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46861837068",
+            "user_id": "45329736",
+            "user_login": "hitboxking",
+            "user_name": "HITBOXKING",
+            "game_id": "516575",
+            "game_name": "VALORANT",
+            "type": "live",
+            "title": "RANKEDS VALORANT TO RADIANT",
+            "viewer_count": 3297,
+            "started_at": "2023-05-15T14:47:19Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_hitboxking-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español",
+                "valorant",
+                "shooters"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46862729116",
+            "user_id": "235551224",
+            "user_login": "tomateking",
+            "user_name": "TomateKing",
+            "game_id": "32982",
+            "game_name": "Grand Theft Auto V",
+            "type": "live",
+            "title": "El YeRaY 😈  | Banda Puñalon Records🔪 | RoyalSideRP🔞  ❗Prime ❗Redes ❗Sub ❗Tomate   @TomateKing",
+            "viewer_count": 3271,
+            "started_at": "2023-05-15T19:54:16Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tomateking-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": true
+        },
+        {
+            "id": "46861931644",
+            "user_id": "114772787",
+            "user_login": "agustabell212",
+            "user_name": "Agustabell212",
+            "game_id": "263490",
+            "game_name": "Rust",
+            "type": "live",
+            "title": "🔴 🚁 TIESOS POR LA VIDA 🚁 Seguimos vivos . !tiktok !bellum !Team !7tv !yt2 !evento !trailer !bellum !drops",
+            "viewer_count": 2611,
+            "started_at": "2023-05-15T15:28:36Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_agustabell212-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46862687100",
+            "user_id": "74101321",
+            "user_login": "adcshiiro",
+            "user_name": "AdcShiiro",
+            "game_id": "21779",
+            "game_name": "League of Legends",
+            "type": "live",
+            "title": "OFICIAL 22.00  MANIKOIMIO. SE VIENE LETSGO",
+            "viewer_count": 2527,
+            "started_at": "2023-05-15T19:40:12Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_adcshiiro-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46862738364",
+            "user_id": "147300700",
+            "user_login": "baptistao",
+            "user_name": "Baptistao",
+            "game_id": "1745202732",
+            "game_name": "FIFA 23",
+            "type": "live",
+            "title": "ACABAMOS FUT CHAMPIONS ⭐ !prime",
+            "viewer_count": 2437,
+            "started_at": "2023-05-15T19:57:15Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_baptistao-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "competitivo",
+                "charlando",
+                "español",
+                "deportes",
+                "baptistao",
+                "fútbol",
+                "fifa",
+                "futbol",
+                "fifa23",
+                "Español"
+            ],
+            "is_mature": false
+        },
+        {
+            "id": "46862157324",
+            "user_id": "123922797",
+            "user_login": "iamcristinini",
+            "user_name": "IamCristinini",
+            "game_id": "743",
+            "game_name": "Chess",
+            "type": "live",
+            "title": "🔴 CHESS | Twitter: @IamCristinini",
+            "viewer_count": 2327,
+            "started_at": "2023-05-15T16:57:09Z",
+            "language": "es",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_iamcristinini-{width}x{height}.jpg",
+            "tag_ids": [],
+            "tags": [
+                "Español"
+            ],
+            "is_mature": false
+        }
+    ],
+    "pagination": {
+        "cursor": "eyJiIjp7IkN1cnNvciI6ImV5SnpJam96TlRRek9TNDFOek01TURjNE5qWTFNU3dpWkNJNlptRnNjMlVzSW5RaU9uUnlkV1Y5In0sImEiOnsiQ3Vyc29yIjoiZXlKeklqb3lNekkzTGpVeE1qRTVOall4TlRBMU5EWXNJbVFpT21aaGJITmxMQ0owSWpwMGNuVmxmUT09In19"
+    }
+}

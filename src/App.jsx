@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 
 import { Error404 } from "./containers/Errors/Error404"
 import { Home } from "./containers/pages/Home"
+import { Pruebas } from "./containers/pages/Pruebas";
 // import { useState } from 'react'
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="*" element={<Error404/>}/>
           <Route path="/" element={<Home/>}/>
+          <Route path="/pruebas" element={<Pruebas/>}/>
         </Routes>
       </Router>
     </Provider>
