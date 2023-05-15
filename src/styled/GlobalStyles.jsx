@@ -45,9 +45,6 @@ export const GlobalStyles = createGlobalStyle`
   *, *:before, *:after {
       box-sizing: inherit;
   }
-  h1, h2, h3{
-
-  }
   img,
   picture {
       width: 100%;

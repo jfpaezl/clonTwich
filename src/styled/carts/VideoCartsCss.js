@@ -60,7 +60,7 @@ const VideoCartsCss = styled.div`
         }
         .parrafo{
             font-size: 1.3rem;
-            max-width: 25rem;
+            max-width: 20rem;
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden;
